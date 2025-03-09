@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["final-iota-beige.vercel.app" , "http://localhost:3000"] ,
+    origin: ["https://final-iota-beige.vercel.app/" , "http://localhost:3000"] ,
     methods: "GET, POST, PUT, DELETE",
     credentials: true,
   })
